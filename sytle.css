@@ -1,0 +1,149 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image: url(bg.webp);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background-color: rgb(43, 29, 29);
+}
+
+.container
+{
+    background: rgba(0,0,0,0.5);
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    border: 1px solid rgb(0, 0, 0,0);
+}
+.container:hover{
+    border: 10px solid rgb(0, 0, 0,0);
+    transition: 0.5s ease-in-out;
+}
+
+.searchbox
+{
+    display: flex;
+    margin: 20px 60px;
+    gap: 20px;
+    align-items: center;
+}
+.searchbox input
+{
+    color: rgb(249, 250, 252);
+    background-color:rgba(0,0,0,0.3);
+    border: none;
+    outline: none;
+    width: 550px;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.searchbox:hover #searchinput{
+
+    border: 2px solid rgb(0, 0, 0);
+    transform: scale(1.1); 
+    transition:  0.3s ease-in-out;
+}
+
+.searchbox i
+{
+    
+    font-size: 17px;
+    border-radius: 5px;
+    position: relative;
+    right: 45px
+}
+
+.searchbox i:hover
+{
+    transform: scale(1.2);
+    transition: transform 0.3s  ease-in-out;
+}
+
+
+
+.body
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.body img
+{
+    width: 140px;
+}
+
+.body h2
+{
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+.body h1
+{
+
+    color: white;
+    font-weight: bold;
+}
+
+.deatil
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.col i
+{
+    font-size: 25px;
+    color: aqua;
+}
+.col h5
+{
+    font-size: 18px;
+    color: white;
+}
+
+.col p
+{
+    font-size: 17px;
+    color: white;
+}
+
+
+
+.weather-description {
+    font-size: 20px; 
+    color: white;
+    margin-left: 10px; 
+    vertical-align: baseline; 
+    text-align: center; 
+    width: 100%; 
+}
+
+.temp-container {
+    display: block;
+}
